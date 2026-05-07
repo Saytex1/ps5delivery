@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS5Delivery — Location de PS5 livrée chez vous</title>
+  <meta name="description" content="Louez une PS5 avec manettes et jeux, livrée directement chez vous. Packs Solo, Duo et Squad disponibles à partir de 80 DH/jour.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">PS5<span>Delivery</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#service">Service</a>
+        <a href="#catalogue">Catalogue</a>
+        <a href="#faq">FAQ</a>
+        <a href="#commander" class="nav-cta">Commander</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/hero-bg.webp" alt="PS5 Gaming Background" id="heroBgMedia">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Disponible maintenant à Casablanca
+      </div>
+      <h1>
+        Louez votre PS5,<br>
+        <span class="gradient-text">On vous la livre !</span>
+      </h1>
+      <p>
+        Profitez des meilleurs jeux PS5 sans vous ruiner. Choisissez votre pack, 
+        et recevez votre console avec manettes et jeux directement chez vous.
+      </p>
+      <a href="#catalogue" class="hero-cta">
+        🎮 Découvrir nos Packs
+      </a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE ========== -->
+  <section id="service">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Comment ça marche</span>
+        <h2 class="section-title">Simple, Rapide, Fun</h2>
+        <p class="section-subtitle">En 3 étapes, votre PS5 est chez vous. Pas de caution exorbitante, pas de prise de tête.</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="service-grid">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">🎯</div>
+          <span class="service-step">Étape 01</span>
+          <h3>Choisissez votre Pack</h3>
+          <p>Solo, Duo ou Squad — sélectionnez le pack qui correspond à votre style de jeu et au nombre de joueurs.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">🚚</div>
+          <span class="service-step">Étape 02</span>
+          <h3>On vous livre</h3>
+          <p>Livraison rapide à domicile. Votre PS5, vos manettes et vos jeux arrivent prêts à jouer.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">🎮</div>
+          <span class="service-step">Étape 03</span>
+          <h3>Jouez sans limites</h3>
+          <p>Branchez, jouez et profitez. On récupère le tout à la fin de votre location. C'est aussi simple que ça.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CATALOGUE ========== -->
+  <section id="catalogue">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Nos Packs</span>
+        <h2 class="section-title">Choisissez votre expérience</h2>
+        <p class="section-subtitle">3 packs pensés pour tous les gamers. Du solo au squad, on a ce qu'il vous faut.</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="catalogue-grid">
+
+        <!-- Pack Solo -->
+        <div class="pack-card reveal reveal-delay-1">
+          <div class="pack-badge">Standard</div>
+          <div class="pack-image">
+            <img src="assets/pack-solo.webp" alt="Pack Solo PS5">
+            <div class="pack-image-overlay"></div>
+          </div>
+          <div class="pack-info">
+            <h3 class="pack-name">Pack Solo</h3>
+            <p class="pack-specs">PS5 + <strong>1 Manette</strong> + 8 Jeux</p>
+            <p class="pack-games">GTA, FC 26, The Crew, Red Dead, UFC 5…</p>
+            <div class="pack-price-row">
+              <span class="pack-price">80 <small>DH</small></span>
+              <span class="pack-price-unit">/ jour</span>
+            </div>
+            <p class="pack-delivery">🚚 + Livraison <strong>20 DH</strong></p>
+            <a href="#commander" class="pack-cta">Choisir ce Pack</a>
+          </div>
+        </div>
+
+        <!-- Pack Duo -->
+        <div class="pack-card featured reveal reveal-delay-2">
+          <div class="pack-badge">⭐ Recommandé</div>
+          <div class="pack-image">
+            <img src="assets/pack-duo.webp" alt="Pack Duo PS5">
+            <div class="pack-image-overlay"></div>
+          </div>
+          <div class="pack-info">
+            <h3 class="pack-name">Pack Duo</h3>
+            <p class="pack-specs">PS5 + <strong>2 Manettes</strong> + 10 Jeux</p>
+            <p class="pack-games">GTA, FC 26, Rainbow, Fortnite, UFC 5…</p>
+            <div class="pack-price-row">
+              <span class="pack-price">100 <small>DH</small></span>
+              <span class="pack-price-unit">/ jour</span>
+            </div>
+            <p class="pack-delivery">🚚 + Livraison <strong>20 DH</strong></p>
+            <a href="#commander" class="pack-cta">Choisir ce Pack</a>
+          </div>
+        </div>
+
+        <!-- Pack Squad -->
+        <div class="pack-card reveal reveal-delay-3">
+          <div class="pack-badge">Premium</div>
+          <div class="pack-image">
+            <img src="assets/pack-squad.webp" alt="Pack Squad PS5">
+            <div class="pack-image-overlay"></div>
+          </div>
+          <div class="pack-info">
+            <h3 class="pack-name">Pack Squad</h3>
+            <p class="pack-specs">PS5 + <strong>4 Manettes</strong> + 11 Jeux</p>
+            <p class="pack-games">GTA, FC 26, Fortnite, The Crew, NBA 26…</p>
+            <div class="pack-price-row">
+              <span class="pack-price">140 <small>DH</small></span>
+              <span class="pack-price-unit">/ jour</span>
+            </div>
+            <p class="pack-delivery">🚚 + Livraison <strong>20 DH</strong></p>
+            <a href="#commander" class="pack-cta">Choisir ce Pack</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Questions fréquentes</span>
+        <h2 class="section-title">Besoin d'aide ?</h2>
+        <p class="section-subtitle">Retrouvez les réponses aux questions les plus courantes sur notre service.</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Comment fonctionne la location ?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">C'est simple : choisissez votre pack, passez commande, et on vous livre votre PS5 avec les manettes et jeux inclus. À la fin de la durée choisie, on vient récupérer le matériel chez vous.</div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Quels jeux sont inclus ?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Chaque pack inclut une sélection de jeux populaires : GTA V, EA FC 26, Rainbow Six Siege, Red Dead Redemption 2, UFC 5, Fortnite, NBA 2K26, The Crew 2, et plus encore selon le pack choisi.</div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Comment se passe la livraison ?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Nous livrons directement à votre domicile. La livraison coûte 20 DH quelle que soit la durée de location. On installe tout et on s'assure que tout fonctionne avant de partir.</div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Quelle est la durée minimum de location ?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">La durée minimum est de 1 jour. Vous pouvez louer aussi longtemps que vous le souhaitez — les tarifs sont calculés par jour.</div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <span>Que se passe-t-il en cas de panne ?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">En cas de panne ou de problème technique, contactez-nous immédiatement. Nous remplacerons le matériel défectueux dans les plus brefs délais, sans frais supplémentaires.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ORDER ========== -->
+  <section id="commander">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Commander</span>
+        <h2 class="section-title">Prêt à jouer ?</h2>
+        <p class="section-subtitle">Remplissez le formulaire et on vous contacte pour confirmer votre commande.</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="order-wrapper">
+        <div class="order-info reveal">
+          <h3>Pourquoi louer avec PS5Delivery ?</h3>
+          <p>Pas besoin d'investir dans une console. Profitez de la dernière PS5 avec tous les jeux tendance, livrée et installée chez vous.</p>
+          <div class="order-features">
+            <div class="order-feature">
+              <span class="order-feature-icon">⚡</span>
+              <span>Livraison le jour même (selon disponibilité)</span>
+            </div>
+            <div class="order-feature">
+              <span class="order-feature-icon">🎮</span>
+              <span>Jusqu'à 11 jeux inclus dans votre pack</span>
+            </div>
+            <div class="order-feature">
+              <span class="order-feature-icon">🛡️</span>
+              <span>Remplacement gratuit en cas de panne</span>
+            </div>
+            <div class="order-feature">
+              <span class="order-feature-icon">💰</span>
+              <span>À partir de 80 DH/jour seulement</span>
+            </div>
+            <div class="order-feature">
+              <span class="order-feature-icon">📞</span>
+              <span>Support disponible 7j/7</span>
+            </div>
+          </div>
+        </div>
+        <form class="order-form reveal" id="orderForm">
+          <div class="form-group">
+            <label for="pack">Pack souhaité</label>
+            <select id="pack" required>
+              <option value="" disabled selected>Choisir un pack…</option>
+              <option value="solo">Pack Solo — 80 DH/jour</option>
+              <option value="duo">Pack Duo — 100 DH/jour</option>
+              <option value="squad">Pack Squad — 140 DH/jour</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" placeholder="06 XX XX XX XX" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="city">Ville</label>
+            <input type="text" id="city" placeholder="Casablanca, Rabat, Marrakech…" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date souhaitée</label>
+              <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+              <label for="duration">Durée (jours)</label>
+              <input type="number" id="duration" min="1" value="1" placeholder="1" required>
+            </div>
+          </div>
+          <button type="submit" class="order-submit">🎮 Confirmer ma commande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">PS5<span>Delivery</span></a>
+          <p>Le service N°1 de location de PS5 au Maroc. Console, manettes, jeux — tout est inclus et livré chez vous.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="#service">Service</a>
+            <a href="#catalogue">Catalogue</a>
+            <a href="#faq">FAQ</a>
+            <a href="#commander">Commander</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Packs</h4>
+          <div class="footer-links">
+            <a href="#catalogue">Pack Solo</a>
+            <a href="#catalogue">Pack Duo</a>
+            <a href="#catalogue">Pack Squad</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact</h4>
+          <div class="footer-links">
+            <a href="tel:+212600000000">+212 6 00 00 00 00</a>
+            <a href="mailto:contact@ps5delivery.com">contact@ps5delivery.com</a>
+          </div>
+          <div class="footer-socials">
+            <a href="#" class="footer-social" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            <a href="#" class="footer-social" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+            <a href="#" class="footer-social" aria-label="TikTok"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 PS5Delivery.com — Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING CALL BUTTON ========== -->
+  <a href="tel:+212600000000" class="floating-call-btn" aria-label="Appeler nous">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+    <span>Appeler</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
