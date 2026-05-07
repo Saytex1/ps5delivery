@@ -75,6 +75,16 @@ document.addEventListener('DOMContentLoaded', () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
+        
+        // If it's a pack card, reveal all siblings so they are visible in the mobile slider
+        if (entry.target.classList.contains('pack-card')) {
+          const siblings = entry.target.parentElement.querySelectorAll('.pack-card');
+          siblings.forEach(sibling => {
+            sibling.classList.add('visible');
+            revealObserver.unobserve(sibling);
+          });
+        }
+        
         revealObserver.unobserve(entry.target);
       }
     });
