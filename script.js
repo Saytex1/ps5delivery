@@ -140,26 +140,16 @@ document.addEventListener('DOMContentLoaded', () => {
     );
 
     // Open WhatsApp (replace with actual number)
-    window.open(`https://wa.me/212600000000?text=${message}`, '_blank');
+    window.open(`https://wa.me/212600639808?text=${message}`, '_blank');
   });
 
-  // =================== PACK CTA PRESELECT ===================
-  document.querySelectorAll('.pack-cta').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      const cardEl = e.target.closest('.pack-card');
-      const cards = document.querySelectorAll('.pack-card');
-      const index = Array.from(cards).indexOf(cardEl);
-      const packValues = ['solo', 'duo', 'squad'];
-      
-      setTimeout(() => {
-        document.getElementById('pack').value = packValues[index];
-      }, 500);
-    });
-  });
 
-  // =================== SET MIN DATE ===================
-  const dateInput = document.getElementById('date');
-  const today = new Date().toISOString().split('T')[0];
-  dateInput.setAttribute('min', today);
-  dateInput.value = today;
+  // =================== INIT DATE PICKER ===================
+  flatpickr("#date", {
+    locale: "fr",
+    minDate: "today",
+    defaultDate: "today",
+    dateFormat: "Y-m-d",
+    disableMobile: "true"
+  });
 });
