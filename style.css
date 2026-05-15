@@ -96,6 +96,10 @@ img {
   align-items: center;
 }
 
+.nav-logo picture {
+  display: flex;
+}
+
 .nav-logo img {
   height: 70px;
   width: auto;
